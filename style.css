@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+    --cream: #F3E5CC;
+    --green: #183B28;
+    --green-soft: #49634D;
+    --line: rgba(24, 59, 40, 0.28);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F3E5CC;
+    color: #183B28;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Header button - same style as the other Zitouna pages */
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    font-size: large;
+    color: #F3E5CC;
+    background-color: #183B28;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+header a:hover {
+    background-color: #0f2418;
+}
+
+/* Desktop layout, matching the fixed side-by-side layout in the other pages */
+.menu-page {
+    display: flex;
+    width: 100%;
+    padding: 15px 11% 60px;
+    gap: 12%;
+    align-items: flex-start;
+}
+
+.intro {
+    width: 40%;
+    padding-top: 8px;
+}
+
+.menu-list {
+    width: 48%;
+    padding-top: 0;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 56px;
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-weight: normal;
+    color: #000000;
+}
+
+em {
+    color: #183B28;
+}
+
+.intro-copy {
+    width: 100%;
+    margin: 20px 0 25px;
+    color: #294633;
+    font-size: large;
+    line-height: 1.6;
+}
+
+.reserve-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px 25px;
+    border-radius: 25px;
+    background-color: #183B28;
+    color: #F3E5CC;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.reserve-button:hover {
+    background-color: #0f2418;
+}
+
+.reserve-button span {
+    font-size: 20px;
+}
+
+.food-photo {
+    width: 100%;
+    height: 330px;
+    margin: 36px 0 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.food-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-caption {
+    margin-top: 10px;
+    color: #49634D;
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.menu-category {
+    margin-bottom: 34px;
+}
+
+.menu-category h2 {
+    margin: 0 0 12px;
+    padding-bottom: 12px;
+    border-bottom: 1.5px solid #183B28;
+    color: #183B28;
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 29px;
+    font-weight: normal;
+}
+
+.dish {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 11px 0 12px;
+    border-bottom: 1px solid rgba(24, 59, 40, 0.28);
+}
+
+.dish:last-child {
+    border-bottom: none;
+}
+
+.dish h3 {
+    margin: 0 0 3px;
+    color: #183B28;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dish p {
+    margin: 0;
+    color: #38523D;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.dish strong {
+    flex-shrink: 0;
+    color: #183B28;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.site-footer {
+    padding: 24px 7% 30px;
+    border-top: 1px solid rgba(24, 59, 40, 0.28);
+    text-align: center;
+    color: #183B28;
+}
+
+.site-footer span {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 23px;
+}
+
+.site-footer p {
+    margin: 6px 0 0;
+    font-size: 13px;
+}
